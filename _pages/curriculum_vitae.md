@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
-permalink: https://www.overleaf.com/read/shvzgmbxqcst#14faa5
+permalink: 
 description: Curriculum Vitae
 nav: true
 nav_order: 0

@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Qihang
 middle_name: 
-last_name: Zhang(张启航)
+last_name: Zhang
 email: qihangz@ece.ubc.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
