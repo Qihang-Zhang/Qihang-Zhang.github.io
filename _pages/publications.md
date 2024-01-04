@@ -3,12 +3,12 @@ layout: page
 permalink: /publications/
 title: Publications
 description:
-years: [2023, 2022, 2021, 2020	]
+years: [2023]
 nav: true
 nav_order: 2
 ---
 <!-- _pages/publications.md -->
-Reference: <a href="https://scholar.google.com/citations?user=rIUE-FoAAAAJ">Google Scholar</a> profile.
+Reference: <a href="https://scholar.google.com/citations?user=A_h5posAAAAJ&hl">Google Scholar</a> profile.
 <div class="publications">
 
 {%- for y in page.years %}

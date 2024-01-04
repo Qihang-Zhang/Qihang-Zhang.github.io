@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Qi
+first_name: Qihang
 middle_name: 
-last_name: Yan
-email: qi.yan@ece.ubc.ca
+last_name: Zhang(张启航)
+email: qihangz@ece.ubc.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -14,9 +14,9 @@ footer_text: >
 keywords:  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: mountain.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://qiyan98.github.io # the base hostname & protocol for your site
+url: https://qihang-zhang.github.io/ # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -53,11 +53,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: qiyan98  # your GitHub user name
+github_username: qihang-zhang  # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: qi_yan98 # your Twitter handle
-linkedin_username: qi-yan-bb7066151 # your LinkedIn user name
-scholar_userid: rIUE-FoAAAAJ  # your Google Scholar ID
+twitter_username: AnchorZhang # your Twitter handle
+linkedin_username: qihangzhang # your LinkedIn user name
+scholar_userid: A_h5posAAAAJ&hl # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -73,7 +73,7 @@ stackoverflow_id: #your stackoverflow id
 contact_note: >
   Email is the best way to reach me. :)
 
-google_analytics:  G-XF2F08905R # your google-analytics ID (format: UA-XXXXXXXXX)
+google_analytics: # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
@@ -201,8 +201,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Yan
-  first_name: Qi
+  last_name: Qihang
+  first_name: Zhang
 
   style: ieee-with-url
   locale: en
