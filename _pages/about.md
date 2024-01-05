@@ -19,7 +19,5 @@ I am a Ph.D. student in the [Electrical and Computer Engineering](https://ece.ub
 **Previously:** I received my bachelor's degree in [Department of Automation](https://www.au.tsinghua.edu.cn/en/index.htm) at [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2023.
 I was fortunate to work with [Prof. Shenlong Wang](https://shenlong.web.illinois.edu/) and [Prof. Gao Huang](https://www.gaohuang.net/) during my undergraduate study.
 
-Please refer to my [curriculum vitae](./assets/pdf/CV_QiYan.pdf) if you are interested.
-
 **DAgrad:** My friends and I Created [DAgrad](https://dagrad.site/), where we have shared ***EECS*** graduate school admission results from [Tsinghua University](https://www.tsinghua.edu.cn/en/), China! We're passionate to expand to more universities and countries soon to build a community for EECS graduate applications. If you're passionate about similar idea, feel free to contact me!
 
