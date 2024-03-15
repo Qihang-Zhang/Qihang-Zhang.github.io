@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-permalink: /
+permalink: https://qihang-zhang.github.io
 subtitle:
 
 profile:

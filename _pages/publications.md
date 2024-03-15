@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications/
+permalink: https://qihang-zhang.github.io/publications/
 title: Publications
 description:
 years: [2023]
