@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-permalink: /blog/
+permalink: /Learning-Sys-Blog/
 description:
 nav: true
 nav_order: 0
