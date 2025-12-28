@@ -34,6 +34,7 @@
           <div class="title">{{entry.title}}</div>
           <!-- Author -->
           <div class="author">
+          {%- assign equal_contrib_list = entry.equal_contrib | default: "" | split: ";" -%}
           {%- for author in entry.author_array -%}
             {%- assign author_is_self = false -%}
             {%- if author.last == site.scholar.last_name%}
@@ -50,37 +51,42 @@
                 {%- endif -%}
               {%- endfor -%}
             {%- endif -%}
-            
-            {%- if forloop.length == 1 -%}
-              {%- if author_is_self %}
+            {%- assign author_full = author.first | append: " " | append: author.last | downcase | strip -%}
+            {%- assign is_equal_contrib = false -%}
+            {%- for equal_contrib in equal_contrib_list -%}
+              {%- assign equal_contrib_clean = equal_contrib | downcase | strip -%}
+              {%- if equal_contrib_clean != "" and author_full == equal_contrib_clean -%}
+                {%- assign is_equal_contrib = true -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- endfor -%}
+
+            {%- capture rendered_author -%}
+              {%- if author_is_self -%}
                 <strong style="color:#B71C1C;">{{author.first}} {{author.last}}</strong>
               {%- else -%}
-                {{author.first}} {{author.last}}
-              {%- endif -%} 
+                {%- if coauthor_url -%}
+                  <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                {%- else -%}
+                  {{author.first}} {{author.last}}
+                {%- endif -%}
+              {%- endif -%}
+              {%- if is_equal_contrib -%}<sup>*</sup>{%- endif -%}
+            {%- endcapture -%}
+
+            {%- if forloop.length == 1 -%}
+              {{ rendered_author }}
             {%- else -%}
               {%- unless forloop.last -%}
-                {% if author_is_self -%} 
-                  <strong style="color:#B71C1C;">{{author.first}} {{author.last}}</strong>,&nbsp;
-                {%- else -%}
-                  {% if coauthor_url -%}
-                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
-                  {%- else -%}
-                    {{author.first}} {{author.last}},&nbsp;
-                  {%- endif -%}
-                {%- endif -%}
+                {{ rendered_author }},&nbsp;
               {%- else -%}
-                {% if author_is_self -%}
-                  and <strong style="color:#B71C1C;">{{author.first}} {{author.last}}</strong>
-                {% else -%}
-                  {%- if coauthor_url -%}
-                    and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
-                  {% else -%}
-                    and {{author.first}} {{author.last}}
-                  {%- endif -%}
-                {%- endif -%}
+                and {{ rendered_author }}
               {%- endunless -%}
             {%- endif -%}
           {%- endfor %}
+          {%- if entry.equal_contrib -%}
+            <span class="equal-contrib-note">&nbsp;<sup>*</sup> indicates equal contribution</span>
+          {%- endif -%}
           </div>
 
           <!-- Journal/Book title and date -->
