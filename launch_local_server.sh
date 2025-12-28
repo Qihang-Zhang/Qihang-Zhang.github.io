@@ -7,7 +7,7 @@ docker run --rm -it \
   -e BUNDLE_PATH=/tmp/bundle \
   -e BUNDLE_APP_CONFIG=/tmp/bundle-config \
   --entrypoint bash \
-  bretfisher/jekyll-serve \
+  ruby:3.1-bookworm \
   -lc 'set -e
     mkdir -p "$GEM_HOME" "$BUNDLE_PATH" "$BUNDLE_APP_CONFIG"
     gem install bundler -v 2.4.22
