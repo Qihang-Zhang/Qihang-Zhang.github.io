@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: qihang_pic.jpeg
+  image: qihangz_pic_1228.jpeg
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
