@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
-permalink: /CV/
+permalink: /cv/
 description: Curriculum Vitae
 nav: true
 nav_order: 0
