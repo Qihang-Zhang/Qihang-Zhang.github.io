@@ -2,10 +2,27 @@
   - firstname: ["Renjie"]
     url: https://lrjconan.github.io/
 
-"Wang": 
+"Wang":
   - firstname: ["Lele"]
     url: https://ece.ubc.ca/lele-wang/
-
-"ziao_wang": 
   - firstname: ["Ziao"]
     url: https://ziaow027.github.io/
+  - firstname: ["Shenzhi"]
+    url: https://github.com/Shenzhi-Wang
+
+"Li": 
+  - firstname: ["Muchen"]
+    url: https://jojoml.github.io/
+
+"Huang":
+  - firstname: ["Gao"]
+    url: https://gaohuang-net.github.io/
+
+"Yang":
+  - firstname: ["Qisen"]
+    url: https://qisen-yang.netlify.app/
+
+
+"Zhang":
+  - firstname: ["Qihang"]
+    url: https://qihang-zhang.com/

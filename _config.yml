@@ -140,6 +140,7 @@ kramdown:
 # Includes & excludes
 include: ['_pages']
 exclude:
+  - .venv
   - bin
   - Gemfile
   - Gemfile.lock
@@ -231,7 +232,7 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true
+  enabled: false
   widths:
     - 480
     - 800
