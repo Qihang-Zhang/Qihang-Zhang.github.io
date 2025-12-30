@@ -3,7 +3,10 @@
 
   <!-- Head -->
   <head>
-  {%- if page.redirect -%}
+  {%- if page.redirect_to -%}
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}" />
+    <link rel="canonical" href="{{ page.redirect_to }}" />
+  {%- elsif page.redirect -%}
     <meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/" />
   {%- endif -%}
   {% include head.html %}

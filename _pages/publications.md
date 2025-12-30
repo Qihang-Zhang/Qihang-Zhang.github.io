@@ -8,7 +8,9 @@ nav: true
 nav_order: 2
 ---
 <!-- _pages/publications.md -->
-Reference: [Google Scholar Profile](https://scholar.google.com/citations?user=A_h5posAAAAJ&hl)
+Reference: [Google Scholar](https://scholar.google.com/citations?user=A_h5posAAAAJ&hl) Profile
+
+\* indicates equal contribution
 <div class="publications">
 
 {%- for y in page.years %}
